@@ -1,0 +1,13 @@
+import pandas as pd
+
+df = pd.read_csv('dsp2.csv',encoding='utf-8')
+
+print("そのまま表示")
+print(df)
+
+import pandas as pd
+
+df = pd.read_csv('dsp2last.csv',encoding='utf-8')
+
+print("そのまま表示")
+print(df)
